@@ -78,6 +78,7 @@ try {
         }
 
         $CustomerLinks = "<div class=`"nasa__content`"> 
+	<div class=`"nasa__block`"><button class=`"button`" onclick=`"window.open('https://portal.office.com/Adminportal/Home#/servicehealth?CTID=$($customer.CustomerId)')`" ><h3><i class=`"fas fa-passport`">&nbsp;&nbsp;&nbsp;</i>Service Health</h3></button></div>
         <div class=`"nasa__block`"><button class=`"button`" onclick=`"window.open('https://portal.office.com/Partner/BeginClientSession.aspx?CTID=$($customer.CustomerId)&CSDEST=o365admincenter')`"><h3><i class=`"fas fa-cogs`">&nbsp;&nbsp;&nbsp;</i>M365 Admin Portal</h3></button></div>
         <div class=`"nasa__block`"><button class=`"button`" onclick=`"window.open('https://outlook.office365.com/ecp/?rfr=Admin_o365&exsvurl=1&delegatedOrg=$($Customer.DefaultDomainName)')`"><h3><i class=`"fas fa-mail-bulk`">&nbsp;&nbsp;&nbsp;</i>Exchange Admin Portal</h3></button></div>
         <div class=`"nasa__block`"><button class=`"button`" onclick=`"window.open('https://aad.portal.azure.com/$($Customer.DefaultDomainName)')`" ><h3><i class=`"fas fa-users-cog`">&nbsp;&nbsp;&nbsp;</i>Azure Active Directory</h3></button></div>
